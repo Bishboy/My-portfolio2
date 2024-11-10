@@ -2,6 +2,8 @@ import { useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Sparkles } from '@react-three/drei'
 import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
+import About from './sections/About'
 
 // const RotatingCube = () => {
 //   const meshRef = useRef();
@@ -26,6 +28,8 @@ function App() {
   return (
     <main className=''>
       <Navbar />
+      <Hero />
+      <About />
     </main>
     // <Canvas style={{height:"100vh"}} className=' text-black w-screen  flex justify-center items-center'>
     //   <OrbitControls enablePan enableRotate  enableZoom />
