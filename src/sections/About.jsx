@@ -29,9 +29,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Emmanuel Uduak</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+                A passionate frontend developer, that combines creativity and
+                technical prowess to craft visually stunning and user-friendly
+                web experiences.
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ const About = () => {
                   alt="copy"
                 />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                    bishboy2spieking@gmail.com
+                  bishboy2spieking@gmail.com
                 </p>
               </div>
             </div>
